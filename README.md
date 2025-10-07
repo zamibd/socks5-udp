@@ -1,16 +1,16 @@
 <div align="center">
 
-<img alt="Gopher socks logo" src="https://github.com/TuanKiri/socks5-assets/blob/master/logo.png?raw=true" width="200">
+<img alt="Gopher socks logo" src="https://github.com/ezh0v/socks5-assets/blob/master/logo.png?raw=true" width="200">
 
 <h1>SOCKS 5</h1>
 
 [![license](https://img.shields.io/badge/license-MIT-red.svg)](LICENSE)
-[![go version](https://img.shields.io/github/go-mod/go-version/TuanKiri/socks5)](go.mod)
-[![go doc](https://godoc.org/github.com/TuanKiri/socks5?status.svg)](https://pkg.go.dev/github.com/TuanKiri/socks5)
-[![go report](https://goreportcard.com/badge/github.com/TuanKiri/socks5)](https://goreportcard.com/report/github.com/TuanKiri/socks5)
-[![tests](https://github.com/TuanKiri/socks5/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/TuanKiri/socks5/actions?workflow=Test)
+[![go version](https://img.shields.io/github/go-mod/go-version/ezh0v/socks5)](go.mod)
+[![go doc](https://godoc.org/github.com/ezh0v/socks5?status.svg)](https://pkg.go.dev/github.com/ezh0v/socks5)
+[![go report](https://goreportcard.com/badge/github.com/ezh0v/socks5)](https://goreportcard.com/report/github.com/ezh0v/socks5)
+[![tests](https://github.com/ezh0v/socks5/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/ezh0v/socks5/actions?workflow=Test)
 
-<strong>[Report Bug](https://github.com/TuanKiri/socks5/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBug%5D%3A+)</strong> | <strong>[Request Feature](https://github.com/TuanKiri/socks5/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml&title=%5BEnhancement%5D%3A+)</strong>
+<strong>[Report Bug](https://github.com/ezh0v/socks5/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBug%5D%3A+)</strong> | <strong>[Request Feature](https://github.com/ezh0v/socks5/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml&title=%5BEnhancement%5D%3A+)</strong>
 
 A fully featured implementation of the SOCKS 5 protocol in golang.
 
@@ -18,13 +18,13 @@ A fully featured implementation of the SOCKS 5 protocol in golang.
 | :--------------: | :-------------: | :--------------: |
 | ✅ - implemented | 🛠 - in progress | ✅ - implemented |
 
-<img alt="Gopher socks logo" src="https://github.com/TuanKiri/socks5-assets/blob/master/preview.gif?raw=true" width="480">
+<img alt="Gopher socks logo" src="https://github.com/ezh0v/socks5-assets/blob/master/preview.gif?raw=true" width="480">
 
 </div>
 
 ## Installation
 
-    go get github.com/TuanKiri/socks5
+    go get github.com/ezh0v/socks5
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/TuanKiri/socks5"
+	"github.com/ezh0v/socks5"
 )
 
 func main() {
@@ -78,7 +78,7 @@ See the [tests](socks5_test.go) and [examples](examples) for more information ab
 
   Not all applications and browsers support socks authentication or socks protocol. You may need [extension](https://github.com/txthinking/socks5-configurator) for Chrome or another browser.
 
-If you have any questions, you can ask in [GitHub Discussions](https://github.com/TuanKiri/socks5/discussions/new?category=q-a).
+If you have any questions, you can ask in [GitHub Discussions](https://github.com/ezh0v/socks5/discussions/new?category=q-a).
 
 ## Note
 
